@@ -1,0 +1,96 @@
+.cont__dashboard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.card__board{
+    width: 24%;
+    height: 250px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    color: black;
+    border-radius: 5px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+
+/*.material-symbols-outlined{
+    font-size: 150px;
+    color: red;
+}
+*/
+.board{
+    font-size: 120px !important;
+    font-weight: 100;
+    
+}
+
+.titulo__board{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.subtitulo__board{
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 25px
+}
+
+
+/*======= indices Economicos ======*/
+
+
+.cont__ie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+
+.card__ie{
+    width: 24%;
+    border-radius: 5px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+   /* background: black;
+    opacity: .4;
+    color: white;*/
+    background: linear-gradient(to right, rgba(255, 122, 89,1), rgba(255, 122, 89,0));
+
+}
+
+
+.sign_dolar{
+    font-size: 65px !important;
+}
+
+.titulo__ie{
+    font-weight: 400;
+}
+
+
+.subtitulo__indice{
+    font-size: 35px;
+    font-weight: 500;
+}

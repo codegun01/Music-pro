@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+/*====== NAV =========*/
+
+nav{
+    height: 150px;
+    background: #17202A;
+}
+
+.titulo__logo{
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+
+.pro__logo{
+    color: red;
+    font-weight: 400;
+}
+
+.nav__logo{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buscar__logo{
+    width: 50%;
+}
+
+.car__ing{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__ingreso{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.material-symbols-outlined{
+    font-size: 25px;
+}
+
+.Carrito__compra{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.buscar__logo{
+    height: 35px;
+    padding: 1rem;
+    outline:none;
+    border-radius: 45px;
+    border: none;
+}
+
+.links__nav{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;  
+    align-items: center;
+}
+
+.cont__links{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__links{
+    color: white;
+    text-decoration: none;  
+}
+
+
+/*================== BANNER =======================*/
+
+
+.banner__header{
+    height: 70vh;
+    background-image: url(../img/banner_3.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.cont__banner{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo__banner{
+    color: white;
+    font-size: 85px;
+}
+
+.subtitulo__banner{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.btn__banner{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.btn__tit{
+    text-decoration: none;
+    font-weight: 600;
+    color: #17202A;
+    font-size: 15px;
+}
+
+/*======= cards =======*/
+
+.titulo__containers{
+    font-size: 55px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.card__cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 24%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.img__card{
+    width: 150px;
+    height: 250px;
+}
+
+.titulo__card{
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card__precio{
+    font-weight: 900;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.btn__card{
+    background: dodgerblue;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+
+/*======= Contacto ========*/
+
+
+.contacto{
+    background: #EAF2FD;
+}
+
+.cont__tacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cont__contac{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo__info{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.logo2{
+    color: #17202A;
+}
+
+.link__info{
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.cont__contac3{
+    width: 50%;
+}
+
+.titulo__form{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.form__contac{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input{
+    height: 45px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 1rem;
+}
+
+.btn__submit{
+    height: 55px;
+    margin-top: 25px;
+    width: 50%;
+    background: dodgerblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+textarea{
+    border: none;
+    padding: 1rem;
+    outline: none;
+}
+
+footer{
+    background-color: #17202A;
+}
+
+.contenedor__footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cont__footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.titulo__footer{
+    margin-bottom: 35px;
+}
+
+.link__equipo{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.subtitulo__footer{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    margin: 0px 10px;
+}
+
+
+.cont__compra{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.des__product{
+    width: 50%;
+}
+
+
+.titulo__des{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.cont__product{
+    margin-bottom: 25px;
+}
+
+.precio__pesos{
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.precio__dolar{
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+
+.btn__comprar{
+    margin-bottom: 25px;
+    width: 350px;
+    height: 45px;
+    border:none;
+    color:#fff;
+    font-weight: 600;
+    font-size: 20px;
+    background: dodgerblue;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+
+.card__compra{
+    width: 45%;
+}
+
+.img__compra{
+    width: 100%;
+    height: 100%;
+}

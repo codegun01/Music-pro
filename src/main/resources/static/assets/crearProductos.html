@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/usuario.css">
+    <link rel="stylesheet" href="../css/crearUsuario.css">
+    <title>Music Pro</title>
+</head>
+<body onload="mostrarHora()">
+    
+
+    <header>
+        <nav>
+            <div class="nav__logo">
+                <h3 class="titulo__logo">Music <span class="pro__logo">Pro</span></h3>
+
+                
+
+                <div class="hora__fecha">
+                    <h3 class="date__hour" id="date__hour"><span id="fecha"></span> | <span id="hora"></span></h3>
+                </div>
+
+                </div> 
+            
+
+            <div class="links__nav">
+                <div class="cont__links">
+                    <a href="dashboar.html" class="nav__links">Dashboard</a>
+                    <a href="usuario.html" class="nav__links">Usuarios</a>
+                    <a href="productos.html" class="nav__links">productos</a>
+                    <a href="pedidos.html" class="nav__links">Clientes</a>
+                    <a href="../index.html" class="nav__links">Logout</a>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="contacto">
+            <div class="container">
+                <div class="cont__titulos">
+                    <h1 class="titulo__usuarios">Ingresar productos</h1>
+                    <div class="cont__btn_crear">
+                        <a href="productos.html" class="btn__crear">Volver<span class="material-symbols-outlined">arrow_back_ios</span></a>
+                    </div>
+                </div>
+                
+               <div class="cont__usuario">
+                    <div class="formulario__crear">
+                        <input type="text" name="marca" id="marca" class="input__crear" placeholder="Marca">
+                        <input type="text" name="precio_costo" id="precio_costo" class="input__crear" placeholder="Precio costo">
+                        <input type="text" name="precio_venta" id="precio_venta" class="input__crear" placeholder="Precio venta">
+                        <label for="categorias">Categorias</label>
+                        <select name="categorias" id="categorias" class="input__crear">
+                            <option value=""></option>
+                            <option value="Guitarra">Guitarra</option>
+                            <option value="Bajos">Bajos</option>
+                            <option value="Piano">Piano</option>
+                            <option value="Percusion">Percusion</option>
+                            <option value="Amplificadores">Amplificadores</option>
+                            <option value="Accesorios">Accesorios</option>
+                        </select>
+
+                        <input type="submit" value="Enviar" onclick="registrarProducto()" class="btn__Formcrear">
+                    </div>
+                    
+               </div> 
+                
+                
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container contenedor__footer">
+            <div class="cont__footer">
+                <h3 class="titulo__footer">Nuestro Equipo de Desarrollo</h3>
+                <a href="" class="link__equipo">Crisitan Riveros</a>
+                <a href="" class="link__equipo">Claudia Quinchavil</a>
+                <a href="" class="link__equipo">Fernando Borgues</a>
+            </div>
+
+            <div class="cont__footer">
+                <h3 class="titulo__footer">Lorem Ipsum</h3>
+                <p class="subtitulo__footer"><span class="material-symbols-outlined">mail</span>MusicPro@mail.cl</p>
+                <p class="subtitulo__footer"><span class="material-symbols-outlined">call</span>25567778</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="../funciones/fechaHora.js"></script>
+    <script src="../funciones/registarProducto.js"></script>
+    
+</body>
+</html>
